@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selamat Ulang Tahun, Sayang!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+      transition: background-image 1.5s ease-in-out;
+    }
+
+    .container {
+      padding: 50px 20px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      margin: 20px;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4em;
+      margin-bottom: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 1.7em;
+      margin-top: 0;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    .love-msg {
+      max-width: 800px;
+      margin: 30px auto;
+      font-size: 1.3em;
+      background: rgba(255, 255, 255, 0.3);
+      color: #000;
+      padding: 25px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      animation: fadeIn 4s ease-in-out;
+      line-height: 1.7em;
+      font-weight: 500;
+      text-align: justify;
+    }
+
+    .gift-box {
+      margin-top: 40px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      display: inline-block;
+      padding: 15px;
+      border-radius: 15px;
+      background-color: #fdd8d8;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .gift-box:hover {
+      transform: scale(1.05);
+      background-color: #ffe6ea;
+    }
+
+    .gift-box img {
+      width: 150px;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(100vh);
+        opacity: 0;
+      }
+    }
+
+    .heart {
+      position: fixed;
+      top: -30px;
+      font-size: 24px;
+      animation: fall 5s linear forwards;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    .gift-message, .memory-photo {
+      display: none;
+      margin-top: 25px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .gift-message {
+      font-size: 1.3em;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .memory-photo img {
+      max-width: 90%;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      margin-top: 15px;
+    }
+
+    audio {
+      display: none;
+    }
+
+    .credit {
+      margin-top: 50px;
+      font-size: 1em;
+      color: #fff;
+      text-align: center;
+      opacity: 0.9;
+      font-style: italic;
+    }
+
+    /* Tombol Musik */
+    #toggle-music-btn {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 9999;
+      padding: 10px 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #ffffffa1;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Musik -->
+  <audio id="bg-music" autoplay loop>
+    <source src="music/SELAMAT ULANG TAHUN KEKASIH - MARIO G KLAU.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio tag.
+  </audio>
+
+  <!-- Tombol Toggle Musik -->
+  <button id="toggle-music-btn" onclick="toggleMusic()">🔇 Matikan Musik</button>
+
+  <div class="container">
+    <h1>Selamat Ulang Tahun, Cintaku 💖</h1>
+    <h1>Nur Sri Puja</h1>
+    <h1>16 Juni 2025</h1>
+
+    <div class="love-msg">
+     Hari ini adalah hari di mana seseorang yang paling berarti dalam hidupku dilahirkan. Bukan hanya sekadar tanggal biasa di kalender, tapi hari yang penuh makna karena tanpa hari ini, aku tidak akan pernah mengenal sosok luar biasa sepertimu.
+
+Kamu bukan hanya kekasih, tapi juga sahabat, penyemangat, dan peneduh di kala hati sedang lelah. Terima kasih sudah menjadi alasan aku tersenyum bahkan di hari-hari tergelap. Kamu adalah tempat aku pulang, tempat aku merasa diterima apa adanya.
+
+Aku bangga dengan siapa dirimu saat ini, dan aku yakin kamu akan jadi pribadi yang jauh lebih hebat di masa depan. Di hari ulang tahunmu ini, aku berdoa agar semua mimpi dan harapanmu menjadi nyata, dan semoga Tuhan selalu menjaga langkahmu, menyelimuti hatimu dengan kedamaian, dan melindungimu dari segala yang buruk.
+
+Aku tahu hidup tak selalu mudah, tapi percayalah, selama kita berjalan bersama, tak ada badai yang terlalu besar untuk dilewati. Aku janji akan tetap ada, bukan hanya di hari-hari bahagia, tapi juga di saat-saat sulit.
+
+Selamat bertambah usia, sayang. Jangan pernah lupa betapa berharganya dirimu, dan betapa besar cinta yang aku punya untukmu. Hari ini adalah tentangmu, tapi aku merasa akulah yang paling beruntung, karena bisa mencintai dan dicintai oleh seseorang sepertimu.
+
+Aku cinta kamu. Hari ini, esok, dan selamanya. 💖
+      <br><br>🎂🎉💝
+    </div>
+
+    <div class="gift-box" onclick="openGift(this)">
+      <img id="gift-image" src="images/images-removebg-preview (1).png" alt="Kado">
+      <p style="color:#000; font-weight:600;">Klik untuk membuka kado 🎁</p>
+    </div>
+
+    <div class="gift-message" id="gift-message">
+      💌 Ini hanya digital, tapi hatiku benar-benar untukmu. Happy Birthday Sayang 💖
+    </div>
+
+    <div class="memory-photo" id="memory-photo">
+      <img src="images/21.jfif" alt="Foto Kenangan">
+    </div>
+  </div>
+
+  <script>
+    const music = document.getElementById('bg-music');
+    const toggleBtn = document.getElementById('toggle-music-btn');
+
+    function toggleMusic() {
+      if (music.paused) {
+        music.play();
+        toggleBtn.textContent = '🔇 Matikan Musik';
+      } else {
+        music.pause();
+        toggleBtn.textContent = '🔊 Putar Musik';
+      }
+    }
+
+    function openGift(element) {
+      document.getElementById('gift-message').style.display = 'block';
+      document.getElementById('memory-photo').style.display = 'block';
+      document.getElementById('gift-image').src = 'https://i.imgur.com/4Y1z9vP.png';
+      element.classList.add('clicked');
+      createHearts();
+    }
+
+    function createHearts() {
+      for (let i = 0; i < 25; i++) {
+        const heart = document.createElement('div');
+        heart.classList.add('heart');
+        heart.textContent = '❤️';
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.fontSize = (Math.random() * 20 + 20) + 'px';
+        heart.style.animationDuration = (Math.random() * 3 + 2) + 's';
+        document.body.appendChild(heart);
+        setTimeout(() => heart.remove(), 5000);
+      }
+    }
+
+    const backgrounds = [
+      'images/1.jpeg', 'images/2.jpeg', 'images/3.jpeg', 'images/4.jpeg',
+      'images/5.jpeg', 'images/bg4.jpg', 'images/6.jfif', 'images/7.jfif',
+      'images/8.jfif', 'images/9.jfif', 'images/10.jpeg', 'images/11.jfif',
+      'images/12.jfif', 'images/13.jfif', 'images/14.jfif', 'images/15.jfif',
+      'images/16.jfif', 'images/17.jfif', 'images/18.jfif', 'images/19.jfif',
+      'images/20.jfif', 'images/bg5.jpg'
+    ];
+    let current = 0;
+
+    function changeBackground() {
+      document.body.style.backgroundImage = `url('${backgrounds[current]}')`;
+      current = (current + 1) % backgrounds.length;
+    }
+
+    setInterval(changeBackground, 5000);
+
+    window.onload = function () {
+      playMusic();
+      changeBackground();
+    };
+
+    function playMusic() {
+      music.play().then(() => {
+        toggleBtn.textContent = '🔇 Matikan Musik';
+      }).catch((e) => {
+        console.log("Autoplay gagal, butuh interaksi user");
+      });
+    }
+  </script>
+
+  <footer class="credit">
+    Dibuat dengan ❤️ <strong>Ijee</strong>
+  </footer>
+
+</body>
+</html>
